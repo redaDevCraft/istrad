@@ -311,7 +311,7 @@ export default function DoualyCalculator() {
             </p>
           </div>
 
-          <div className="px-4 py-3 overflow-y-auto max-h-[70vh] lg:max-h-none custom-scroll">
+          <div className="px-4 py-3 lg:overflow-y-auto lg:max-h-[78vh] custom-scroll">
             <div className="mb-3">
               <PillGroup<ImporterType>
                 value={form.importerType} onChange={v => set("importerType", v)}
